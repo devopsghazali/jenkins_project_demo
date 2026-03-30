@@ -1,0 +1,10 @@
+{
+  "name": "my-jenkins-project",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "mkdir -p dist && cp src/index.html dist/ && cp src/index.js dist/"
+  },
+  "devDependencies": {
+    "shx": "^0.3.4"
+  }
+}
